@@ -12,6 +12,13 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+
+:root {
+	--primary-color: #e50914;
+	--dark-color: #141414;
+	--light-color: #f4f4f4;
+}
 body
 {
   font-family: helvetica,sans-serif;
@@ -343,7 +350,7 @@ p.none
 }
 form input
 {
-	width:450px;
+	width:550px;
 	height:70px;
 	margin-right:0;
 	padding:14px 25px;
@@ -374,7 +381,10 @@ span#last input
 	
 	width:80%;
 }
-
+.start
+{
+	width:20%;
+}
 p.do
 {
 	display:flex;
@@ -402,7 +412,7 @@ p.do
 }
 form input
 {
-	width:170px;
+	width:300px;
 	height:50px;
 	margin-left:25px;
 }
@@ -412,7 +422,7 @@ form input
 	font-size:12px;
 	color:white;
 	width:95px;
-	height:50px;
+	height:48px;
 
 }
 .contents h1
@@ -438,12 +448,18 @@ section#four
 }
 span#last input
 {
-	width:170px;
+	width:300px;
 	height:50px;
 	margin-right:0px;
 	margin-left:25px;
 }
+.start
+{
+	font-size:12px;
+	width:95px;
+	height:50px;
 
+}
 p.do
 {
 	margin-left:100px;
@@ -608,21 +624,6 @@ p.do
 
 }
 @media (max-width:767px){
-	form input
-{
-	width:70px;
-	height:50px;
-	
-}
-	
-.start
-{
-	font-size:12px;
-	color:white;
-	width:95px;
-	height:50px;
-
-}
 
 	section.top
 	{
@@ -733,14 +734,29 @@ span#content1
     left:20%;
     
 }
+.start
+{
+	background: red;
+	font-size:20px;
+	color:white;
+	width:240px;
+	height:60px;
 
+}
 p.none
 {
 	color:white;
 	font-size:15px;
 	margin-left:70px;
 }
-
+form input
+{
+	width:340px;
+	height:60px;
+	margin-right:0;
+	margin-left:30px;
+	
+}
 .contents h1
 {
 	padding-left:30px;
@@ -867,7 +883,6 @@ input#pls
 			
 	}
 	
-	
 }
 @media (max-width:580px){
 
@@ -899,7 +914,6 @@ input#pls
 	    width:580px;
 			
 	}
-	
 	
 }
 
@@ -999,4 +1013,3 @@ section#one img
 	margin-top:5px;
 }
 }
-
