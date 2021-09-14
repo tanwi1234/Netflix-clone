@@ -1,4 +1,9 @@
 
+html,body
+{
+	
+	overflow-x:hidden;
+}
 
 :root {
 	--primary-color: #e50914;
