@@ -1,20 +1,11 @@
 
-
-:root {
-	--primary-color: #e50914;
-	--dark-color: #141414;
-	--light-color: #f4f4f4;
-}
 html,body
 {
    
     margin: 0px;
     padding: 0px;
-	overflow:hidden;
-    
+    overflow-x: hidden; 
 }
-
-
 :root {
 	--primary-color: #e50914;
 	--dark-color: #141414;
@@ -426,13 +417,6 @@ form input
 	height:48px;
 
 }
-	#okk
-	{
-	font-size:12px;
-	color:white;
-	width:95px;
-	height:48px;
-	}
 .contents h1
 {
 	padding-left:25px;
@@ -461,7 +445,13 @@ span#last input
 	margin-right:0px;
 	margin-left:25px;
 }
+.start
+{
+	font-size:12px;
+	width:95px;
+	height:50px;
 
+}
 p.do
 {
 	margin-left:100px;
@@ -745,21 +735,6 @@ span#content1
 	height:60px;
 
 }
-	#okk
-	{
-	background: red;
-	font-size:20px;
-	color:white;
-	width:50px;
-	height:60px;
-	}
-	#ename
-	{
-	width:150px;
-	height:60px;
-	margin-right:0;
-	margin-left:30px;
-	}
 p.none
 {
 	color:white;
@@ -868,53 +843,6 @@ input#pls
 
 
 }
-
-
-
-@media (min-width:1230px)
-{
-	.first
-{
-	max-width: 77%;
-    max-height:50%;
-    position: absolute;
-    top: 20%;
-    left:9%;
-   
-
-}
-.second
-{
-    top:30%;
-    left:25%;
-    max-width:80%;
-    max-height:33%;
-}
-p.do
-{
-	margin-left:300px;
-}
-section#three img
-{
-	margin-left:100px;
-	width:650px;
-	padding-top:10px
-	margin-bottom:70px;
-
-}
-form.important
-{
-	margin-left:60px;
-}
-section#one img
-{
-	width:550px;
-	top:5%;
-	margin-top:10px;
-	margin-bottom:30px;
-}
-
-}
 @media (max-width:380px){
 
 	section.top
@@ -979,6 +907,53 @@ section#one img
 			
 	}
 	
+}
+
+
+
+@media (min-width:1230px)
+{
+	.first
+{
+	max-width: 77%;
+    max-height:50%;
+    position: absolute;
+    top: 20%;
+    left:9%;
+   
+
+}
+.second
+{
+    top:30%;
+    left:25%;
+    max-width:80%;
+    max-height:33%;
+}
+p.do
+{
+	margin-left:300px;
+}
+section#three img
+{
+	margin-left:100px;
+	width:650px;
+	padding-top:10px
+	margin-bottom:70px;
+
+}
+form.important
+{
+	margin-left:60px;
+}
+section#one img
+{
+	width:550px;
+	top:5%;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
 }
 @media (min-width:1400px)
 {
