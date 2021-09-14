@@ -425,6 +425,13 @@ form input
 	height:48px;
 
 }
+	#okk
+	{
+	font-size:12px;
+	color:white;
+	width:95px;
+	height:48px;
+	}
 .contents h1
 {
 	padding-left:25px;
@@ -737,6 +744,21 @@ span#content1
 	height:60px;
 
 }
+	#okk
+	{
+	background: red;
+	font-size:20px;
+	color:white;
+	width:50px;
+	height:60px;
+	}
+	#ename
+	{
+	width:150px;
+	height:60px;
+	margin-right:0;
+	margin-left:30px;
+	}
 p.none
 {
 	color:white;
